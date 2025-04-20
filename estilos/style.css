@@ -35,7 +35,6 @@ section#login{
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
-
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -51,5 +50,13 @@ section#login > div#imagem{
 section#login > div#formulario{
     padding: 10px;
     display: block;
+}
 
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p{
+    font-size: 0.8em;
 }
